@@ -63,3 +63,7 @@ CREATE TABLE licenses (
 - Notifications par e-mail pour les licences expirées.
 - Interface utilisateur améliorée avec Bootstrap ou autres frameworks CSS.
 - Implémentation d'un tableau de bord pour gérer les licences.
+
+## Username et Mot de passe
+* username : admin
+* password : admin
