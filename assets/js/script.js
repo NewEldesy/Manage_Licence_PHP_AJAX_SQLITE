@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $("#loginForm").submit(function (e) {
+    $(document).on('click', '#loginForm', function(e){
         e.preventDefault();
-
+        username = $('#username').val(); password = $('#password').val();
         $.ajax({
             url: 'ajax/login.php',
             method: 'POST',
-            data: $(this).serialize(),
+            data: { username: username, password: password },
             success: function (response) {
                 const res = JSON.parse(response);
                 if (res.status === 'success') {
@@ -13,7 +13,7 @@ $(document).ready(function () {
                 } else {
                     alert(res.message);
                 }
-            }
+            },
         });
     });
 
