@@ -1,0 +1,1 @@
+# Manage_Licence_PHP_AJAX_SQLITE
