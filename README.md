@@ -61,5 +61,5 @@ CREATE TABLE licenses (
 ## Améliorations Futures
 - Ajout de la gestion des utilisateurs (inscription, mise à jour, suppression).
 - Notifications par e-mail pour les licences expirées.
-- Interface utilisateur améliorée avec des frameworks CSS comme Bootstrap.
+- Interface utilisateur améliorée avec Bootstrap ou autres frameworks CSS.
 - Implémentation d'un tableau de bord pour gérer les licences.
