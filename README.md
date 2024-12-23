@@ -64,6 +64,6 @@ CREATE TABLE licenses (
 - Interface utilisateur améliorée avec Bootstrap ou autres frameworks CSS.
 - Implémentation d'un tableau de bord pour gérer les licences.
 
-## Username et Mot de passe
+## Username & Password
 * username : admin
 * password : admin
